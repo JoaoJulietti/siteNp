@@ -1,0 +1,115 @@
+@font-face {
+  font-family: nexa;
+  src: url('..//fonts/nexa-bold.otf');
+}
+
+@font-face {
+  font-family: metropolis;
+  src: url('fonts/Metropolis-Regular.otf');
+}
+
+@font-face {
+  font-family: metropolis_light;
+  src: url('fonts/Metropolis-Light.otf');
+}
+@font-face {
+  font-family: 'qanelas';
+  src: url('fonts/qanelas-soft-demo-ultralight.otf');
+}
+body {
+  margin: 0 auto;
+  color: #ffffff;
+  width: 100%;
+  background-image: linear-gradient(to bottom, #090124 0%, #000000 100%);
+}
+
+header {
+  width: 100%;
+  height: 90px;
+  background-color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  box-shadow: 0px 7px 6px #00000029;
+}
+
+footer {
+  display: flex;
+  text-align: center;
+  color: #ffffff;
+  justify-content: center;
+  margin-top: 100px;
+  font-family: metropolis_light;
+  font-size: 30px;
+}
+
+.logo {
+  height: 80px;
+  margin-left: 20px;
+}
+
+.buttons a {
+  text-decoration: none;
+  font-family: 'qanelas';
+  margin-right: 30px;
+  color: black;
+}
+
+.section_sobre {
+  display: flex;
+  width: 100%;
+  height: 100%;
+  flex-direction: column;
+  align-items: center;
+}
+
+.section_sobre h1 {
+  font-family: nexa;
+  font-size: 119px;
+}
+.section_sobre .div_texto {
+  width: 80%;
+  margin-bottom: 100px;
+}
+
+.section_sobre .div_texto p {
+  font-family: metropolis;
+  font-size: 30px;
+}
+
+.section_sobre .div_card_right,
+.div_card_left {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: metropolis_light;
+}
+
+.div_card_text {
+  width: 40%;
+  font-size: 20px;
+}
+
+.div_card_img {
+  width: 300px;
+  height: 250px;
+  background-color: #ffffff;
+  border-radius: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #000000;
+  font-size: 65px;
+}
+
+.div_card_img p {
+  text-align: center;
+}
+
+.section_sobre .div_card_left .div_card_text {
+  margin-left: 10px;
+}
+
+.section_sobre .div_card_left {
+  margin: 100px 0;
+}
